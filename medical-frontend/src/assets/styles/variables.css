@@ -1,0 +1,94 @@
+:root {
+  /* 主色调 - 医疗蓝绿（专业、信任、健康） */
+  --primary-color: #00B4A6;
+  --primary-light: #33C4B8;
+  --primary-lighter: #E6F7F5;
+  --primary-dark: #009688;
+  --primary-gradient: linear-gradient(135deg, #00B4A6 0%, #00CEC9 100%);
+
+  /* 辅助色 */
+  --success-color: #52C41A;
+  --success-light: #95DE64;
+  --warning-color: #FAAD14;
+  --warning-light: #FFD666;
+  --danger-color: #FF4D4F;
+  --danger-light: #FF7875;
+  --info-color: #1890FF;
+  --info-light: #69C0FF;
+
+  /* 功能色 */
+  --medical-red: #FF5252;
+  --medical-orange: #FF9800;
+  --medical-purple: #9C27B0;
+  --medical-blue: #2196F3;
+
+  /* 文字颜色 */
+  --text-primary: #1A1A1A;
+  --text-regular: #4A4A4A;
+  --text-secondary: #8C8C8C;
+  --text-placeholder: #BFBFBF;
+  --text-disabled: #D9D9D9;
+  --text-white: #FFFFFF;
+
+  /* 背景色 */
+  --bg-color: #F5F7FA;
+  --bg-white: #FFFFFF;
+  --bg-light: #FAFBFC;
+  --bg-gray: #F0F2F5;
+  --bg-dark: #001529;
+  --bg-hover: #F5F5F5;
+
+  /* 边框色 */
+  --border-color: #E8E8E8;
+  --border-light: #F0F0F0;
+  --border-dark: #D9D9D9;
+
+  /* 间距 */
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 48px;
+
+  /* 圆角 - 现代化医疗风格 */
+  --border-radius-sm: 4px;
+  --border-radius: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-xl: 16px;
+  --border-radius-xxl: 20px;
+
+  /* 阴影 - 分层阴影系统 */
+  --box-shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --box-shadow-sm: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  --box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
+  --box-shadow-lg: 0 8px 24px 0 rgba(0, 0, 0, 0.12);
+  --box-shadow-xl: 0 12px 32px 0 rgba(0, 0, 0, 0.15);
+  --box-shadow-hover: 0 8px 20px 0 rgba(0, 180, 166, 0.2);
+
+  /* 过渡动画 */
+  --transition-fast: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* 字体大小 */
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-xxl: 24px;
+  --font-size-huge: 32px;
+
+  /* 行高 */
+  --line-height-tight: 1.2;
+  --line-height-base: 1.5;
+  --line-height-relaxed: 1.8;
+
+  /* Z-index层级 */
+  --z-index-dropdown: 1000;
+  --z-index-modal: 2000;
+  --z-index-notification: 3000;
+  --z-index-tooltip: 4000;
+}
+

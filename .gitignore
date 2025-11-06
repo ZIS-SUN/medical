@@ -1,0 +1,30 @@
+# 编译产物
+medical-backend/target/
+medical-backend/*.log
+medical-backend/*.class
+
+# 依赖目录
+medical-frontend/node_modules/
+medical-frontend/dist/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+*~
+
+# 环境配置（可选，根据需要调整）
+# medical-backend/src/main/resources/application.yml
+# medical-backend/src/main/resources/application-dev.yml
+# medical-backend/src/main/resources/application-prod.yml
+
